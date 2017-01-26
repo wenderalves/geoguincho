@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    font-size:16px;
+    font-family: sans-serif;
+}
+body{
+    background-color:#ddd;
+}
+
+header{
+    background:#ff0;
+    height:3em;
+    line-height:3em;
+    text-align: center;    
+    font-size:1.2em;
+    font-weight: bold;
+    color: blue;
+}
+section{
+    margin:1.5em;
+    text-align:center;    
+}
+section p{
+    font-size:1.2em;
+    color:#777;
+}
+#chamaGuincho{
+    padding: 7% 10%;
+    border:none;
+    background: linear-gradient(0,#8d0000,#f00);
+    border-radius:10px;
+    margin-top:50px;
+    color: #fff;
+    font-weight: bold;
+    font-size:1.0em;
+    text-transform:uppercase;
+}
+section #msg{
+    margin-top:50px;
+}
+#podeMandar{
+    padding: 7% 10%;
+    border:none;
+    background: linear-gradient(0,#016b17,#3ec700);
+    border-radius:7px;    
+    color: #fff;
+    font-weight: bold;
+    font-size:1.0em;
+    text-transform:uppercase;
+}
+#valor{
+    display:block;
+    background-color:#fff;
+    height:60px;
+    line-height:60px;
+    font-weight:bold;
+    color: #f00;
+    margin-top:10px;
+    font-size:21px
+}
+footer{
+    display:block;
+    position: fixed;
+    height: 3em;
+    background:#aaa;
+    width:100%;
+    color:#000;
+    text-align:center;
+    line-height:3em;
+    font-size: 0.75em;
+    text-transform:uppercase;
+    bottom:0px;
+}
+
+.esconder{
+    display: none !important;
+}
+
+.sucesso{    
+    background-color:#45f490;
+    padding:10px;
+    border-radius:10px;
+    color: #063;
+    font-weight:bold;
+}
+
+.erro{
+    background-color:#fff;
+    padding:10px;
+    border-radius:10px;
+    color: #c00;
+}
