@@ -2,9 +2,9 @@
 // Objeto oficina com os dados da oficina
 var Oficina = {
     posicao : {
-        latitude : -23.3044520,
-        longitude: -51.1695820
-        //Londrina
+        latitude : -23.2767951,        
+        longitude: -51.2785162
+        //Cambé
     },
     valorPorKM : 5,
     distanciaMaxima : 15,
